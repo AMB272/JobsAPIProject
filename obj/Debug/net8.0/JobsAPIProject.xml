@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JobsAPIProject</name>
+    </assembly>
+    <members>
+        <member name="M:JobsAPIProject.Controllers.DepartmentsController.InsertDepartment(JobsAPIProject.Entities.DepartmentEntities.DepartmentEntity)">
+            <Summary>
+            Inserts a new department entry based on parameters entered
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.DepartmentsController.UpdateDepartment(System.Int32,JobsAPIProject.Entities.DepartmentEntities.DepartmentEntity)">
+            <Summary>
+            Updates exisitng department entries
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.DepartmentsController.GetAllDepartments">
+            <Summary>
+            Returns a list of all department entries present in the database
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.JobsController.InsertJobEntry(JobsAPIProject.Entities.JobEntities.JobsRequest)">
+            <Summary>
+            Adds a new Job Entry; returns 201 with location header
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.JobsController.UpdateJobEntry(System.Int32,JobsAPIProject.Entities.JobEntities.JobsRequest)">
+            <Summary>
+            Updates an existing Job Entry; returns 200 OK status
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.JobsController.ListAllJobs(JobsAPIProject.Entities.JobEntities.JobsListRequest)">
+            <Summary>
+            Lists all the existing job entries in the database; querying and pagination parameters can be passed in the request object
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.JobsController.GetJobDetails(System.Int32)">
+            <Summary>
+            returns details for a single job entry
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.LocationsController.InsertLocation(JobsAPIProject.Entities.LocationEntities.LocationEntity)">
+            <Summary>
+            Inserts a new location entry based on parameters entered
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.LocationsController.UpdateLocation(System.Int32,JobsAPIProject.Entities.LocationEntities.LocationEntity)">
+            <Summary>
+            Updates exisitng location entries
+            </Summary>
+        </member>
+        <member name="M:JobsAPIProject.Controllers.LocationsController.GetAllLocations">
+            <Summary>
+            Returns a list of all location entries present in the database
+            </Summary>
+        </member>
+    </members>
+</doc>
